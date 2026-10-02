@@ -66,7 +66,6 @@ public class ItemPickerScreen extends Screen {
 
         countBox = new EditBox(this.font, this.width / 2 + 106, 24, 44, 20,
                 Component.translatable("phantomitem.count_label"));
-        countBox.setFilter(text -> text.matches("\\d{0,2}"));
         countBox.setValue(String.valueOf(PhantomConfig.get().count));
         countBox.setResponder(text -> {
             try {
