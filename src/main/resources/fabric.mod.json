@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "phantomitem",
+	"version": "${version}",
+	"name": "Phantom Item",
+	"description": "Pick any item from a menu: it levitates with particles and then appears in your hand as a client-side phantom item.",
+	"authors": [],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.phantomitem.PhantomItemClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
